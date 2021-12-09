@@ -1,5 +1,11 @@
 // TODO: Include packages needed for this application
+
+    // allow usage of npm inquirer package
 const inquirer = require('inquirer');
+
+    // allow manipulation of files
+const fs = require('fs');
+
 
 
 // TODO: Create an array of questions for user input
@@ -58,7 +64,24 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+    return new Promise((resolve, reject) => {
+
+        fs.writeFile(fileName, data, err => {
+
+            if (err) {
+                reject (err);
+                return;
+            }
+
+            resolve({
+                ok: true,
+                message: 'File has been written.'
+            });
+        })
+    })
+}
 
 // TODO: Create a function to initialize app
 function init() {}
