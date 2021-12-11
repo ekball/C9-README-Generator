@@ -1,45 +1,47 @@
-# jkdfl;a
+# mfdiomkew
 
 ## Description
-koemc   
+mldfsaoi   
 
         
 ## Table of Contents
-  * Installation
-  * Usage
-  * Credits
-  * License
-  * Contributions
-  * Tests
-  * Questions   
+* [Installation](#install)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Contributions](#contributions)
+* [Tests](#tests)
+* [Questions](#questions)   
 
          
-## Installation
-dofmao   
+## <a name="install"> Installation </a>
+pqowir   
 
     
-## Usage
-jdlsamomo   
+## <a name="usage"> Usage </a>
+mldsfjnioq   
      
      
-## Credits
-mfdsmoafmoia   
+## <a name="credits"> Credits </a>
+mkds   
 
      
-## License
-Mozilla Public License 2.0   
-undefined
+## <a name="license"> License </a>
+GNU LGPLv3   
+
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)]     
+(https://www.gnu.org/licenses/agpl-3.0)
 
        
-## Contributing
+## ## <a name="contributions"> Contributions </a>
 undefined   
 
       
-## Tests
-modsmf   
+## <a name="tests"> Tests </a>
+ lfdoe   
 
       
-## Questions?
-GitHub Link: **[ndklam](https://github.com/ndklam/)**   
-Email Address: <mdlfa>
+## <a name="questions"> Questions? </a>
+GitHub Link: **[fdmkflda](https://github.com/fdmkflda/)**   
+Email Address: <fidoemkfl>
 

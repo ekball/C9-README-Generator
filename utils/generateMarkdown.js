@@ -2,54 +2,56 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
 
+    console.log(license);
+
     if (!license) {
         return '';
     }
 
     else if (license = 'GNU AGPLv3') {
-        const licenseBadge = `[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)]`;
-        return licenseBadge;
+        return `[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)]`;
+        // return licenseBadge;
     }
 
     else if (license = 'GNU GPLv3') {
-        const licenseBadge = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]`;
-        return licenseBadge;
+        return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]`;
+        // return licenseBadge;
 
     }
     
     else if (license = 'GNU LGPLv3') {
-        const licenseBadge = `[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)]`;
-        return licenseBadge;
+        return `[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)]`;
+        // return licenseBadge;
 
     }
 
     else if (license = 'Mozilla Public License 2.0') {
-        const licenseBadge = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]`;
-        return licenseBadge;
+        return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]`;
+        // return licenseBadge;
 
     }
 
     else if (license = 'Apache License 2.0') {
-        const licenseBadge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]`;
-        return licenseBadge;
+        return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]`;
+        // return licenseBadge;
 
     }
 
     else if (license = 'MIT License') {
-        const licenseBadge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
-        return licenseBadge;
+        return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
+        // return licenseBadge;
 
     }
 
     else if (license = 'Boost Software License 1.0') {
-        const licenseBadge = `[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]`;
-        return licenseBadge;
+        return `[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]`;
+        // return licenseBadge;
 
     }
 
     else if (license = 'The Unlicense') {
-        const licenseBadge = `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]`;
-        return licenseBadge;
+        return `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]`;
+        // return licenseBadge;
 
     }
     
@@ -63,44 +65,44 @@ function renderLicenseLink(license) {
         return '';
     }
 
-    else if (license === 'GNU AGPLv3') {
-        const licenseLink = `(https://www.gnu.org/licenses/agpl-3.0)`;
-        return licenseLink;
+    else if (license = 'GNU AGPLv3') {
+        return `(https://www.gnu.org/licenses/agpl-3.0)`;
+        // return licenseLink;
     }
 
-    else if (license === 'GNU GPLv3') {
-        const licenseLink = `(https://www.gnu.org/licenses/gpl-3.0)`;
-        return licenseLink;
+    else if (license = 'GNU GPLv3') {
+        return `(https://www.gnu.org/licenses/gpl-3.0)`;
+        // return licenseLink;
     }
 
-    else if (license === 'GNU LGPLv3') {
-        const licenseLink = `(https://www.gnu.org/licenses/lgpl-3.0)`;
-        return licenseLink;
+    else if (license = 'GNU LGPLv3') {
+        return `(https://www.gnu.org/licenses/lgpl-3.0)`;
+        // return licenseLink;
     }
 
-    else if (license === 'Mozilla Public License 2.0') {
-        const licenseLink = `(https://opensource.org/licenses/MPL-2.0)`;
-        return licenseLink;
+    else if (license = 'Mozilla Public License 2.0') {
+        return `(https://opensource.org/licenses/MPL-2.0)`;
+        // return licenseLink;
     }
 
-    else if (license === 'Apache License 2.0') {
-        const licenseLink = `(https://opensource.org/licenses/Apache-2.0)`;
-        return licenseLink;
+    else if (license = 'Apache License 2.0') {
+        return `(https://opensource.org/licenses/Apache-2.0)`;
+        // return licenseLink;
     }
 
-    else if (license === 'MIT License') {
-        const licenseLink = `(https://opensource.org/licenses/MIT)`;
-        return licenseLink;
+    else if (license = 'MIT License') {
+        return `(https://opensource.org/licenses/MIT)`;
+        // return licenseLink;
     }
 
-    else if (license === 'Boost Software License 1.0') {
-        const licenseLink = `(https://www.boost.org/LICENSE_1_0.txt)`;
-        return licenseLink;
+    else if (license = 'Boost Software License 1.0') {
+        return `(https://www.boost.org/LICENSE_1_0.txt)`;
+        // return licenseLink;
     }
 
-    else if (license === 'The Unlicense') {
-        const licenseLink = `(http://unlicense.org/)`;
-        return licenseLink;
+    else if (license = 'The Unlicense') {
+        return `(http://unlicense.org/)`;
+        // return licenseLink;
     }
 
 }
@@ -127,41 +129,43 @@ ${data.description}
 
         
 ## Table of Contents
-  * Installation
-  * Usage
-  * Credits
-  * License
-  * Contributions
-  * Tests
-  * Questions   
+* [Installation](#install)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Contributions](#contributions)
+* [Tests](#tests)
+* [Questions](#questions)   
 
          
-## Installation
+## <a name="install"> Installation </a>
 ${data.installation}   
 
     
-## Usage
+## <a name="usage"> Usage </a>
 ${data.usage}   
      
      
-## Credits
+## <a name="credits"> Credits </a>
 ${data.credits}   
 
      
-## License
+## <a name="license"> License </a>
 ${data.license}   
-${renderLicenseSection(data.license)}
+
+${renderLicenseBadge(data.license)}     
+${renderLicenseLink(data.license)}
 
        
-## Contributing
+## ## <a name="contributions"> Contributions </a>
 ${data.contributions}   
 
       
-## Tests
+## <a name="tests"> Tests </a>
 ${data.test}   
 
       
-## Questions?
+## <a name="questions"> Questions? </a>
 GitHub Link: **[${data.github}](https://github.com/${data.github}/)**   
 Email Address: <${data.email}>
 
