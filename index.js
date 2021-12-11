@@ -53,21 +53,65 @@ const questions = () => {
         message: 'What is the intended usage of this project?',
       },
       {
+        type: 'input',
+        name: 'credits',
+        message: 'Who are the collaborators to this project?',
+      },
+      {
         type: 'checkbox',
         name: 'license',
         choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense']
       },
       {
         type: 'input',
-        name: 'credits',
-        message: 'Who are the contributors to this project?',
+        name: 'test',
+        message: 'Enter examples for running tests (Optional)',
+      },
+
+      {
+        type: 'confirm',
+        name: 'confirmContribute',
+        message: 'Would you like others to contribute to this project?',
+        default: true
       },
       {
         type: 'input',
-        name: 'test',
-        message: 'What are the instructions to test your project?',
+        name: 'contributions',
+        message: 'Please enter guidelines for how others can contribute.',
+        when: ({ confirmContribute }) => confirmContribute
+      },
+      {
+        type: 'input',
+        name: 'github',
+        message: 'What is your github username?',
+        validate: githubInput => {
+          if (githubInput) {
+            return true;
+          } else {
+            console.log('Please enter your github username!');
+            return false;
+          }
+        }
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?',
+        validate: emailInput => {
+          if (emailInput) {
+            return true;
+          } else {
+            console.log('Please enter your email address!');
+            return false;
+          }
+        }
+      },
+      {
+        type: 'input',
+        name: 'contact',
+        message: 'Add any additional instructions on contacting you for questions.',
+        when: ({ emailInput }) => emailInput
       }
-
     ])
 
 };
