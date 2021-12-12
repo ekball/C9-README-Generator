@@ -58,7 +58,7 @@ const questions = () => {
         message: 'Who are the collaborators to this project?',
       },
       {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'Which license would you like to use?',
         choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense']

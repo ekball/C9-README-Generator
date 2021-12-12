@@ -1,7 +1,9 @@
-# mfdiomkew
+# jfdklsa;
+
+![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)   
 
 ## Description
-mldfsaoi   
+jfkmcieofe   
 
         
 ## Table of Contents
@@ -15,33 +17,33 @@ mldfsaoi
 
          
 ## <a name="install"> Installation </a>
-pqowir   
+cmeofndjla   
 
     
 ## <a name="usage"> Usage </a>
-mldsfjnioq   
+mfeonfjdks   
      
      
 ## <a name="credits"> Credits </a>
-mkds   
+emcownef   
 
      
 ## <a name="license"> License </a>
-GNU LGPLv3   
+This application is under the license: Boost Software License 1.0
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)]     
-(https://www.gnu.org/licenses/agpl-3.0)
+![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)            
 
-       
+Visit (https://www.boost.org/LICENSE_1_0.txt) for more information regarding this license.
+
 ## ## <a name="contributions"> Contributions </a>
 undefined   
 
       
 ## <a name="tests"> Tests </a>
- lfdoe   
+mkcoendskljf   
 
       
 ## <a name="questions"> Questions? </a>
-GitHub Link: **[fdmkflda](https://github.com/fdmkflda/)**   
-Email Address: <fidoemkfl>
+GitHub Link: **[uekdnfdsajfi](https://github.com/uekdnfdsajfi/)**   
+Email Address: <jnkds@email.com>
 
