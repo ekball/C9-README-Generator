@@ -124,11 +124,13 @@ function writeToFile(fileName, data) {
 
         fs.writeFile(fileName, data, err => {
 
+          // if it fails to write the file, return an error statement
             if (err) {
                 reject (err);
                 return;
             }
 
+          // if successful, let  the user know with a success statement
             resolve({
                 ok: true,
                 message: 'File has been written.'
@@ -140,7 +142,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
 
-    // use question passed through this function as an argument
+    // ask the questions, then generate the markdown based on answers, then write file
     questions()
         .then(ReadMeData => {
             return generateMarkdown(ReadMeData);
@@ -148,6 +150,7 @@ function init() {
         .then(ReadMeDoc => {
             return writeToFile('README.md', ReadMeDoc);
         })
+        // if something goes wrong, let user know with error statement
         .catch(err => {
             console.log(err);
         });
