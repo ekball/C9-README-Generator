@@ -11,7 +11,7 @@
 
 ## Important Notes:
 
-    The sample README in the demo video was saved as a screenshot and will be added to this file for an example of the finished product. I will also include the link to the clip in this file as well as in the submission of the project.
+    The sample README in the demo video was saved as a screenshot and will be added to this file for an example of the finished product. I will also include the link to the clip in this file as well as in the submission of the project. The sample README from the video will be the one in the main directory. ** If another README is generated with the program, it will overwrite the sample **
 
 ## GitHub Links (Repository and Demo Video)
 
