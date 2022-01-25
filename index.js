@@ -148,7 +148,7 @@ function init() {
             return generateMarkdown(ReadMeData);
         })
         .then(ReadMeDoc => {
-            return writeToFile('README.md', ReadMeDoc);
+            return writeToFile('./dist/README.md', ReadMeDoc);
         })
         // if something goes wrong, let user know with error statement
         .catch(err => {

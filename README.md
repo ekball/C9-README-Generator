@@ -1,49 +1,24 @@
-# Title of Project
-
-![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)   
+# Challenge #9 - README Generator
 
 ## Description
-Description goes here   
 
-        
-## Table of Contents
-* [Installation](#install)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
-* [Contributions](#contributions)
-* [Tests](#tests)
-* [Questions](#questions)   
+    This project was about using Node.js to create a backend application that would dynamically generate professional README files for programs. After the user runs the program within the terminal, it will prompt a series of questions. When answered, the program will create a new README file that is styled in a markdown.
 
-         
-## <a name="install"> Installation </a>
-Installation steps   
 
-    
-## <a name="usage"> Usage </a>
-Intended Usage of Project   
-     
-     
-## <a name="credits"> Credits </a>
-any collaborators go here   
+## Experience Gained
 
-     
-## <a name="license"> License </a>
-This application is under the license: The Unlicense
+    This challenge was different than all the previous ones in that we did not have a webpage to style and add functionality. Working on a backend project that the average person would not know how to run without knowledge of node.js was not particularly challenging, but it did allow some insight into thinking how other developers could use this code through the terminal for coding.
 
-![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)            
+## Important Notes:
 
-Visit (http://unlicense.org/) for more information regarding this license.
+    The sample README in the demo video was saved as a screenshot and will be added to this file for an example of the finished product. I will also include the link to the clip in this file as well as in the submission of the project. The sample README from the video will be the one in the main directory. ** If another README is generated with the program, it will overwrite the sample **
 
-## ## <a name="contributions"> Contributions </a>
-Guidelines for other contributors   
+## GitHub Links (Repository and Demo Video)
 
-      
-## <a name="tests"> Tests </a>
-Examples to run tests go here   
+    The repository link: https://github.com/ekball/C6-Weather-Dashboard
 
-      
-## <a name="questions"> Questions? </a>
-GitHub Link: **[ekball](https://github.com/ekball/)**   
-Email Address: <ekball@email.com>
+    The demo video link: https://watch.screencastify.com/v/9nnkvfNLQ3FvrwhAjYeZ
 
+## Demo README
+
+![demo-README-file](./assets/images/screenshot.png)
